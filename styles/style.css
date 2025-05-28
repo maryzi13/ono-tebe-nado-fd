@@ -1,4 +1,3 @@
-/* место для вашего кода */
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -8,20 +7,12 @@
   font-size: 18px;
 }
 
-/*.header__menu {
-
-}*/
-
 .header__links-list {
   display: flex;
   flex-direction: row;
   gap: 32px;
   list-style: circle;
 }
-
-/*.header__links-list-item {
-
-}*/
 
 .header__links-list-item_no-bullit {
   list-style: none;
@@ -42,13 +33,15 @@
   height: 105px;
 }
 
-/*.header__logo-image {
-
-}*/
-
 .address {
   max-width: 240px;
   font-style: normal;
+  line-height: 23.3px;
+}
+
+.address__link {
+  border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 
 .header__address {
@@ -212,10 +205,6 @@
   padding: 35px 24px 180px;
 }
 
-/*.about__column {
-
-}*/
-
 .about__logo {
   display: flex;
   justify-self: center;
@@ -223,7 +212,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  border-radius: 180px;
+  border-radius: 50%;
   background-color: #000;
 }
 
@@ -271,10 +260,6 @@
   list-style: none;
 }
 
-/*.footer__menu-list-item {
-
-}*/
-
 .footer__link {
   border-bottom: 1px solid #000;
   text-decoration: none;
@@ -295,11 +280,3 @@
 .footer__social-list-item {
   width: 48px;
 }
-
-/*.footer__social-link {
-
-}*/
-
-/*.footer__social-icon {
-
-}*/
