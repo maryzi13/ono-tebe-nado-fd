@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px 100px;
+  padding: 92px 50px 96px;
   font-weight: 400;
   font-size: 18px;
 }
@@ -29,7 +29,7 @@
 
 .header__link {
   border-bottom: 1px solid #000;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .header__link_active {
@@ -46,7 +46,7 @@
 
 }*/
 
-.address{
+.address {
   max-width: 240px;
   font-style: normal;
 }
@@ -71,7 +71,7 @@
   height: 100%;
   opacity: 0.6;
   background-color: #000;
-  
+
 }
 
 .cover__title {
@@ -256,7 +256,7 @@
   padding: 0 50px 82px;
   font-weight: 400;
   font-size: 18px;
-  
+
 }
 
 .footer__menu {
@@ -277,7 +277,7 @@
 
 .footer__link {
   border-bottom: 1px solid #000;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .footer__link_active {
